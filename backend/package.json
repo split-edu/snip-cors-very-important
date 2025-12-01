@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend api server",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=22.17.1",
+    "npm": ">=10.9.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.0"
+  }
+}
