@@ -4,6 +4,8 @@ Primjer ilustrira važnost CORS za sigurnost preglednika i utjecaj pri razvoju R
 
 **[CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS) - Cross Origin Resource Sharing - je mehanizam koji omogućava preglednicima regulirati dohvat resursa s različitih domena.**
 
+<img src="./preview/browser-console-error.png">
+
 Pri razvoju React aplikacija koje komuniciraju sa pozadinskim serverima, važno je definirati koje će sve domene React aplikacija imati (ovisno o okruženjima gdje se izvode: lokalno na uređaju, npr. razvojna ili testna okolina).
 Tu informaciju važno je podijeliti onom tko održava pozadinski server, kojeg treba konfigurirati tako nek dozvoli pristup upravo klijentskim aplikacijama s danih domena.
 

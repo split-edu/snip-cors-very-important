@@ -11,7 +11,7 @@ app.use(cors(corsPostavke));
 app.use(express.json());
 
 app.get('/api/movies', (req, res) => {
-  res.send(JSON.stringify([
+  res.send([
     {
       id: 101,
       name: 'Avatar: vatra i pepeo',
@@ -42,7 +42,7 @@ app.get('/api/movies', (req, res) => {
       genre: 'Triler',
       description: 'U distopijskoj bliskoj budućnosti, najpopularniji televizijski show nije talent-natjecanje — već borba za goli život — okuplja Trkače, očajne kandidate koji 30 dana moraju preživjeti lov profesionalnih ubojica.'
     }
-  ]));
+  ]);
 });
 
 const PORT = 3000;
